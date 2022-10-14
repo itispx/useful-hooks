@@ -1,5 +1,7 @@
 just a few hooks that I see myself using in multiple projects
 
+---
+
 ### useTrigger
 
 | `Props`          | `type`            | `description`              |
@@ -7,7 +9,11 @@ just a few hooks that I see myself using in multiple projects
 | **func**         | Function          | function to run on trigger |
 | **dependencies** | Array I undefined | array of dependencies      |
 
+---
+
 ## React Native exclusive
+
+---
 
 ### useBackAction
 
@@ -15,6 +21,8 @@ just a few hooks that I see myself using in multiple projects
 | ---------------- | ----------------- | ------------------------------------------- |
 | **func**         | Function          | function to run when back button is pressed |
 | **dependencies** | Array I undefined | array of dependencies                       |
+
+---
 
 ### useKeyboard
 
@@ -27,6 +35,8 @@ just a few hooks that I see myself using in multiple projects
 | isKeyboardVisible | boolean |
 | keyboardHeight    | number  |
 
+---
+
 ### useStatusBarStyle
 
 | `Props`     | `type`                                 | `description`                   |
@@ -34,7 +44,11 @@ just a few hooks that I see myself using in multiple projects
 | **style**   | light-content I dark-content I default | sets status bar when rendering  |
 | **cleanup** | light-content I dark-content I default | sets status bar when unmounting |
 
+---
+
 ## react-navigation exclusive
+
+---
 
 ### useHeaderHeight
 
@@ -42,9 +56,13 @@ just a few hooks that I see myself using in multiple projects
 | ---------- | ------ | -------------------- |
 | **height** | number | height of the header |
 
+---
+
 ### useOnScreenIsLeft
 
 | `Props`          | `type`            | `description`                       |
 | ---------------- | ----------------- | ----------------------------------- |
 | **func**         | Function          | function to run when screen is left |
 | **dependencies** | Array I undefined | array of dependencies               |
+
+---
