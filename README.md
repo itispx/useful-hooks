@@ -66,3 +66,12 @@ just a few hooks that I see myself using in multiple projects
 | **dependencies** | Array I undefined | array of dependencies               |
 
 ---
+
+### [useKeydown](https://gist.github.com/itispx/b9466e3cce8263a49e5b02a62e81b9be)
+
+| `Props`          | `type`            | `description`                       | `params`             |
+| ---------------- | ----------------- | ----------------------------------- | -------------------- |
+| **func**         | Function          | function to run key is pressed down | event: KeyboardEvent |
+| **dependencies** | Array I undefined | array of dependencies               |
+
+
